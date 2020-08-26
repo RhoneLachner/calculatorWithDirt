@@ -1,8 +1,12 @@
 
 let userName = undefined
 userName = Rhone
-console.log(userName + "'s calculator")
-
+console.log( ${userName} + "'s calculator")
+/*what is the difference between using a variable on it's
+own in a string concatenation vs using "interpolation" with a 
+string literal? ex: console.log(userName + "'s calculator") vs 
+console.log(${userName} + "'s calculator")
+*/
 
 // function declaration
 const add = (numOne, numTwo) => {
