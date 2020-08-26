@@ -1,4 +1,9 @@
 
+let userName = undefined
+userName = Rhone
+console.log(userName + "'s calculator")
+
+
 // function declaration
 const add = (numOne, numTwo) => {
     return numOne + numTwo;
@@ -30,8 +35,8 @@ const add = (numOne, numTwo) => {
   
   
   // !!!Why doesn't this work??!
-  //var array = [add, divide, subtract, multiply] 
-  ////console.log ([0], [1], [2], [3])
+  var array = [add(1,2), divide(2,4), subtract(5,2), multiply(6,6)] 
+ console.log(array[0], array[1], array[2], array[3])
   
   
   //console.log ([0], [1], [2], [3])
@@ -45,4 +50,3 @@ const add = (numOne, numTwo) => {
   
   
   changes 
-  
